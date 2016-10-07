@@ -1,0 +1,150 @@
+/*
+
+
+
+
+MOBILE FIRST LAYOUT ONLY!!!!!
+
+
+
+*/
+
+/*BACKGROUND IMAGE STYLE*/
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+/*GLOBAL STYLE*/
+
+body {
+    position: relative;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSktJKByO3a9VAfhv87aj0mFr2xmMsQv3kXoTh4cIGIdtEOUqNPRg");
+    background-color:black;
+    background-size: 394px 2s00px;
+    background-repeat: no-repeat;
+     
+    
+}
+ 
+
+i {
+    color: whitesmoke;
+}
+
+hr {
+    position: relative;
+    border: 2px solid lightcoral;
+    width: 0px;
+    height: 30px;
+    left: 5px;
+    top:20px;
+    top
+}
+
+
+/*MAIN BODY CONTAINER*/
+
+#main-body-container {
+    position: relative;
+    width: 394px;
+    height: 1000px;
+    left: 0px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+#main-body-container {
+    color: black;
+    font-family: Passion one
+}
+
+
+/*BANNER IMAGE STYLE*/
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+#gtosit {
+    position: relative;
+    max-width: ;
+    width: 99%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+/*NAV BUTTON STYLE*/
+
+#nav-buttons {
+    position: relative;
+    width: 300px;
+    height:100px;
+    display: flex;
+    padding: 5px;
+    top: 0px;
+    left:45px;
+    z-index: 5;
+}
+
+
+/*NAV BUTTON PARAGRAPH*/
+
+#nav-buttons p {
+    position: relative;
+    padding: 5px;
+    left: 0px;
+    width: 100px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 1.5em;
+}
+
+
+/*JUMBOTRON STYLE*/
+
+.jumbotron {
+    position: relative;
+    background-color: grey;
+    width: 100%;
+    height: 260px;
+    top: 37px;
+    opacity: .9;
+    z-index: 0;
+}
+
+/*COPYRIGHT STYLE*/
+.copy{
+    position: relative;
+    top:449px;
+    left: 120px;
+    color:red;
+    z-index: 5;
+}
+
+.topper{
+    position: relative;
+    color:white;
+    left: 180px;
+    width:50px;
+    top: 450px;
+}
+
+.topper a{
+    color:green;
+}
