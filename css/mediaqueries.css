@@ -1,0 +1,87 @@
+            /* ================================= 
+  Media Queries
+==================================== */
+
+
+/*MEDIUM SCREEN*/
+/*
+
+@media only screen and (min-width: 414px) {
+}
+*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*MEDIUM SCREENS*/
+    /*768px */
+    @media (min-width: 768px) {
+        
+         @media (min-width: 1025px) {
+            hr {
+                position: relative;
+                border: 2px solid green;
+                border-radius:5px;
+            }
+            body {
+                position: relative;
+                width: 500px;
+                left: 40pc;
+            }
+            #nav-button-main-container {
+                position: relative;
+                background-color: green;
+                margin: 15px;
+                height: 80px;
+                border-radius: 15px;
+            }
+            
+            #nav-buttons{
+                left:72px;
+            }
+            
+        
+        
+        
+        
+        /*LARGE SCREEN SIZES*/
+        @media (min-width: 1025px) {
+            hr {
+                position: relative;
+                border: 2px solid green;
+                border-radius:5px;
+            }
+            body {
+                position: relative;
+                width: 500px;
+                left: 40pc;
+            }
+            #nav-button-main-container {
+                position: relative;
+                background-color: azure;
+                margin: 15px;
+                height: 80px;
+                border-radius: 15px;
+            }
+            
+            #nav-buttons{
+                left:72px;
+            }
+            
+           
+            .container-fluid h1{
+                color:darkslategray;
+                    background-color: forestgreen;
+                opacity:.9;
+            }
+            
+            .col-imgs{
+                 left:0%;
+                width: 100%
+            }
+            

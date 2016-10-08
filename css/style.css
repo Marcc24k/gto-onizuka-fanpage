@@ -9,37 +9,37 @@ MOBILE FIRST LAYOUT ONLY!!!!!
 
 */
 
+
 /*BACKGROUND IMAGE STYLE*/
+
 #bg {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
 }
+
 #bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
 }
+
 
 /*GLOBAL STYLE*/
 
 body {
     position: relative;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSktJKByO3a9VAfhv87aj0mFr2xmMsQv3kXoTh4cIGIdtEOUqNPRg");
-    background-color:black;
-    background-size: 394px 2s00px;
+    background-color: black;
+    background-size: 394px 200px;
     background-repeat: no-repeat;
-     
-    
 }
- 
 
 i {
     color: whitesmoke;
@@ -47,12 +47,19 @@ i {
 
 hr {
     position: relative;
-    border: 2px solid lightcoral;
+    border: 2px solid red;
+    border-radius: 5px;
+    opacity: .5;
     width: 0px;
     height: 30px;
     left: 5px;
-    top:20px;
+    top: 20px;
     top
+}
+
+a {
+    text-decoration: none;
+    color:orangered;
 }
 
 
@@ -60,11 +67,12 @@ hr {
 
 #main-body-container {
     position: relative;
-    width: 394px;
-    height: 1000px;
+    width: 100%;
+    height: auto;
     left: 0px;
-    border: 2px solid red;
+    border: 2px solid transparent;
     border-radius: 5px;
+    clear: both;
 }
 
 #main-body-container {
@@ -86,20 +94,27 @@ header {
     width: 99%;
     border: 2px solid black;
     border-radius: 5px;
+    box-shadow: 0px 2px 5px 0px black;
 }
 
 
 /*NAV BUTTON STYLE*/
 
+#nav-button-main-container {
+    position: relative;
+    background-color: black;
+    opacity: .9;
+    margin: 15px;
+    height: 80px;
+    border-radius: 15px;
+}
+
 #nav-buttons {
     position: relative;
     width: 300px;
-    height:100px;
+    height: 90px;
     display: flex;
-    padding: 5px;
-    top: 0px;
-    left:45px;
-    z-index: 5;
+    left: 50px;
 }
 
 
@@ -108,7 +123,6 @@ header {
 #nav-buttons p {
     position: relative;
     padding: 5px;
-    left: 0px;
     width: 100px;
     text-align: center;
     font-family: fantasy;
@@ -120,31 +134,110 @@ header {
 
 .jumbotron {
     position: relative;
-    background-color: grey;
-    width: 100%;
-    height: 260px;
-    top: 37px;
+    padding: 15px;
+    background-color: lightcoral;
+    font-family: 'Finger Paint', cursive;
+    height: auto;
     opacity: .9;
+    clear: both;
     z-index: 0;
 }
 
-/*COPYRIGHT STYLE*/
-.copy{
+.jumbotron h1 {
+    text-align: center;
+    color: midnightblue;
+    font-family: 'Caveat Brush', cursive;
+    font-size:
+}
+
+.container-fluid p {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 1.3em;
+    font-family: finger paint, cursive;
+    text-align: center;
+}
+
+.container-fluid h1 {
     position: relative;
-    top:449px;
-    left: 120px;
-    color:red;
+    text-align: center;
+    font-family: caveat brush, cursive;
+    font-size: 2.3em;
+    width: 340px;
+    left: 80px;
+    background-color: royalblue;
+    border-radius: 5px;
+}
+
+
+/*COL-IMGS STYLE*/
+
+.col-imgs {
+    position: relative;
+   left: 24%;
+}
+
+.col-sm-6 {
+    border-radius: 15px;
+    background-color: dodgerblue;
+    text-align: center;
+    font-family: finger paint, cursive;
+    padding: 5px;
+    margin: 5px;
+}
+
+ 
+
+
+/*COPYRIGHT STYLE*/
+
+#copyrights {
+    position: relative;
+    padding: 15px;
+    left: 160px;
+    width: 160px
+}
+
+.copy {
+    position: relative;
+    color: whitesmoke;
     z-index: 5;
 }
 
-.topper{
-    position: relative;
-    color:white;
-    left: 180px;
-    width:50px;
-    top: 450px;
+
+/*COPYRIGHT HOVER STYLES*/
+
+.copySymbol:hover {
+    color: red;
 }
 
-.topper a{
-    color:green;
+.copyGreen:hover {
+    color: green;
+}
+
+.copyOrange:hover {
+    color: lightcoral;
+}
+
+.copyBlue:hover {
+    color: mediumblue;
+}
+
+.copyGold:hover {
+    color: goldenrod;
+}
+
+.topper {
+    position: relative;
+    color: white;
+    left: 50px;
+    padding: 5px;
+    width: 50px;
+}
+
+.topper a {
+    color: green;
 }
