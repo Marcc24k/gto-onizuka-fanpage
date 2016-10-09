@@ -7,8 +7,20 @@
 
 
     <!--STYLESHEETS-->
+<!--   
+
+
+FOR SOME REASON WHEN I TRY TO ADD MY BOOTSTRAP.MI.CSS LINK IT'S RESIZES MY PAGE AND EVERYTHING LOOKS OFF...I'VE TRIED TO FIX WITH HIEARCHY BUT FAILED. KEEP LOOKING INTO THIS
+
+
+
+-->
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">--> 
+
+    
     <link rel="stylesheet" type="text/css" href="css/style.css">
-     <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
 
 
     <!--SCSS-->
@@ -32,7 +44,6 @@
 
 
 <body>
-
     <div id="bg">
         <img src="imgs/Great-Teacher-Onizuka-Wallpapers.jpg" alt="">
     </div>
@@ -42,27 +53,31 @@
         <header>
 
             <nav id="nav-header-container">
+   <div id="nav-button-main-container">
+                    <div id="nav-buttons">
 
-                <!--GTO BANNER SITTING-->
-                <img id="gtosit" src="imgs/gtosit.jpg">
-                <div id="nav-button-main-container">
-                <div id="nav-buttons">
-                    
-                    <p><a href="">Anime</a></p>
-                    <hr>
-                    <p><a href="">Manga</a></p>
-                        </div>
+                        <p><a class="anime" href="http://www.crunchyroll.com/gto-the-animation">Anime</a></p>
+                        <hr>
+                        <p><a class="manga" href="http://www.mangareader.net/great-teacher-onizuka">Manga</a></p>
+                    </div>
                 </div>
+                <!--GTO BANNER SITTING-->
+                                <img id="gtosit" src="imgs/gtosit.jpg">
+             
             </nav>
         </header>
 
+<!--GTO EPISODE 1        -->
+         <iframe width="99%" height="480" src="https://www.youtube.com/embed/TfKzAqqfhSs" frameborder="0" allowfullscreen></iframe>
+         
+        
         <!--JUMBOTRON-->
         <div class="container">
             <div class="jumbotron">
 
                 <!--      GTO BANNER-->
                 <h1>GTOnizuka, The Greatest Teacher Ever!</h1>
-                <p> Hi. I'm Eikichi Onizuka and I'm going to be your new homeroom teacher. I'm 22 years old and very single! I'm on a mission to become the greatest teacher ever. You know, when I was in high school, I was a troublemaker. I hardly went to school. Before I knew it, I was expelled. When I couldn't go anymore, was when I first realized, that school was a great thing. There's a lot of friends and lots of fun things. When I got this old, I wanted even more to go to school. That's why I became a teacher. Because, if I become a teacher, I could stay in school until I die, right? That's why I'm really happy now. I want you to be like that too. I want you to like school. Once it's over, it's too late. </p>
+                <p> Hi. I'm <span class="onizuka">Eikichi Onizuka</span> and I'm going to be your new homeroom teacher. <span class="twentytwo">I'm 22 years old</span> and very single! I'm on a mission to become the greatest teacher ever. You know, when I was in high school, <span class="troublemaker">I was a troublemaker</span>. <span class="hardly">I hardly went to school.</span> Before I knew it, I was expelled. <span class="expelled">When I couldn't go anymore, was when I first realized,</span> <span class="goodthing">that school was a great thing.</span> There's a lot of friends and lots of fun things. <span class="onizuka">When I got this old, I wanted even more to go to school.</span> That's why I became a teacher. Because, if I become a teacher, <span class="twentytwo">I could stay in school until I die</span>, right? That's why I'm really happy now. I want you to be like that too. I want you to like school. <span class="tolate">Once it's over, it's too late.</span> </p>
             </div>
 
         </div>
@@ -90,23 +105,25 @@
         <!--COPYRIGHT  -->
         <div id="copyrights">
             <i class="fa fa-copyright copy"> <span class="copySymbol">&copy;</span> <span class="copyGreen">Marc</span> <span class="copyOrange">Cook</span> <span class="copyBlue">Designs</span> <span class="copyGold">2016</span></i>
-            <div class="topper"><a href="#top">♦TOP♦</a></div>
+            <div class="topper"><a href="#top">↑↑↑</span></a></div>
         </div>
 
     </div>
 
-
+ 
 </body>
 
-
+ 
 
 <!--SCRIPT-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
 <script src="js/script.js"></script>
+    
 <!--CODEPEN-->
 <script async src="http://assets.codepen.io/assets/embed/ei.js"></script>
 

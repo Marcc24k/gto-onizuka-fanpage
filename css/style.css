@@ -34,13 +34,6 @@ MOBILE FIRST LAYOUT ONLY!!!!!
 
 /*GLOBAL STYLE*/
 
-body {
-    position: relative;
-    background-color: black;
-    background-size: 394px 200px;
-    background-repeat: no-repeat;
-}
-
 i {
     color: whitesmoke;
 }
@@ -59,9 +52,13 @@ hr {
 
 a {
     text-decoration: none;
-    color:orangered;
+    color: orangered;
 }
 
+iframe{
+    position: relative;
+    margin-bottom: 10px;
+}
 
 /*MAIN BODY CONTAINER*/
 
@@ -90,7 +87,8 @@ header {
 
 #gtosit {
     position: relative;
-    max-width: ;
+    background-image: url(../imgs/gtosit.jpg);
+    margin-bottom: 15px;
     width: 99%;
     border: 2px solid black;
     border-radius: 5px;
@@ -112,7 +110,7 @@ header {
 #nav-buttons {
     position: relative;
     width: 300px;
-    height: 90px;
+    height: 80px;
     display: flex;
     left: 50px;
 }
@@ -124,9 +122,31 @@ header {
     position: relative;
     padding: 5px;
     width: 100px;
+    height: 40px;
+    top:-10px;
     text-align: center;
     font-family: fantasy;
     font-size: 1.5em;
+}
+
+.anime {
+    color: whitesmoke;
+    font-family: caveat brush, cursive;
+    font-size: 1.3em;
+}
+.anime:hover{
+    color:orangered;
+    font-family:finger paint, fantasy;
+}
+.manga {
+    color: whitesmoke;
+    font-family: caveat brush, cursive;
+    font-size: 1.3em;
+}
+
+.manga:hover{
+    color:orangered;
+    font-family:Finger Paint, fantasy;
 }
 
 
@@ -135,7 +155,8 @@ header {
 .jumbotron {
     position: relative;
     padding: 15px;
-    background-color: lightcoral;
+    background-color: coral;
+    border-radius: 5px;
     font-family: 'Finger Paint', cursive;
     height: auto;
     opacity: .9;
@@ -143,11 +164,43 @@ header {
     z-index: 0;
 }
 
+.jumbotron:hover {
+    background-color: black;
+    border-radius: 10px;
+}
+
 .jumbotron h1 {
     text-align: center;
     color: midnightblue;
     font-family: 'Caveat Brush', cursive;
-    font-size:
+}
+
+p .onizuka:hover {
+    color: lightgreen;
+}
+
+.twentytwo:hover {
+    color: white;
+}
+
+.troublemaker:hover {
+    color: orangered;
+}
+
+.hardly:hover {
+    color: brown;
+}
+
+.expelled:hover {
+    color: paleturquoise;
+}
+
+.goodthing:hover {
+    color: dodgerblue;
+}
+
+.tolate:hover {
+    color: yellow
 }
 
 .container-fluid p {
@@ -177,7 +230,8 @@ header {
 
 .col-imgs {
     position: relative;
-   left: 24%;
+    left: 24%;
+    border-radius: 5px;
 }
 
 .col-sm-6 {
@@ -188,8 +242,6 @@ header {
     padding: 5px;
     margin: 5px;
 }
-
- 
 
 
 /*COPYRIGHT STYLE*/
@@ -234,10 +286,13 @@ header {
     position: relative;
     color: white;
     left: 50px;
+    text-align: center;
+    font-weight: bold;
+    top: 10px;
     padding: 5px;
     width: 50px;
 }
 
 .topper a {
-    color: green;
+    color: forestgreen;
 }
