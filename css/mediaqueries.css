@@ -53,12 +53,13 @@
             @media (min-width: 1025px) {
                 hr {
                     position: relative;
+                    left:35px;
                     border: 2px solid firebrick;
                     border-radius: 5px;
                 }
                 body {
                     position: relative;
-                    width: 500px;
+                    width: 550px;
                     left: 40pc;
                 }
                 #nav-button-main-container {
@@ -70,14 +71,18 @@
                 }
                 
                 .anime{
+                    position:relative;
                     color:whitesmoke;
                     font-family: caveat brush, cursive;
                     font-size: 1.3em;
+                    left:10px;
                 }
                 .manga{
+                    position:relative;
                     color:whitesmoke;
                     font-family: caveat brush, cursive;
                     font-size: 1.3em;
+                    left:60px;
                 }
                 
                 .gtoEp-1{
