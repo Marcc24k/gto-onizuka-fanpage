@@ -1,110 +1,182 @@
-                /* ================================= 
+                                    /* ================================= 
   Media Queries
 ==================================== */
-            /*MEDIUM SCREEN*/
-            /*
+                                /*MEDIUM SCREEN*/
+                                /*
 
 @media only screen and (min-width: 414px) {
 }
 */
-            /*MEDIUM SCREENS*/
-            /*768px */
-            
-            @media (min-width: 768px) {
-                hr {
-                    position: relative;
-                    border: 2px solid green;
-                    border-radius: 5px;
-                }
-                body {
-                    position: relative;
-                    width: 500px;
-                    left: 164px;
-                }
-              
-                
-                #nav-button-main-container {
-                    position: relative;
-                    background-color: darkslateblue;
-                    margin: 15px;
-                    height: 80px;
-                    border-radius: 15px;
-                }
-                .jumbotron{
-                    background-color:cadetblue;
-                }
-                 .jumbotron:hover{
-                    background-color:black;
-                }
-                
-                
-                #nav-buttons {
-                    left: 83px;
-                }
-                .manga {
-                    left: 50px;
-                }
-                .col-imgs {
-                    border-radius: 5px;
-                }
-            }
-            /*LARGE SCREEN SIZES*/
-            
-            @media (min-width: 1025px) {
-                hr {
-                    position: relative;
-                    left:35px;
-                    border: 2px solid firebrick;
-                    border-radius: 5px;
-                }
-                body {
-                    position: relative;
-                    width: 550px;
-                    left: 40pc;
-                }
-                #nav-button-main-container {
-                    position: relative;
-                    background-color:teal;
-                    margin: 15px;
-                    height: 80px;
-                    border-radius: 15px;
-                }
-                
-                .anime{
-                    position:relative;
-                    color:whitesmoke;
-                    font-family: caveat brush, cursive;
-                    font-size: 1.3em;
-                    left:10px;
-                }
-                .manga{
-                    position:relative;
-                    color:whitesmoke;
-                    font-family: caveat brush, cursive;
-                    font-size: 1.3em;
-                    left:60px;
-                }
-                
-                .gtoEp-1{
-                    position: relative;
-                    left: 24px;
-                }
-                  .jumbotron{
-                    background-color:lightcoral;
-                }
-                 .jumbotron:hover{
-                    background-color:black;
-                }
-                #nav-buttons {
-                    left: 72px;
-                }
-                .container-fluid h1 {
-                    color: darkslategray;
-                    background-color: forestgreen;
-                    opacity: .9;
-                }
-                .col-imgs {
-                    left: 0%;
-                    width: 100%;
-                    border-radius: 5px;
-                }
+                                /*MEDIUM SCREENS*/
+                                /*768px */
+                                
+                                @media (min-width: 768px) {
+                                    hr {
+                                        position: relative;
+                                        border: 2px solid green;
+                                        border-radius: 5px;
+                                    }
+                                    body {
+                                        position: relative;
+                                        width: 600px;
+                                        left: 164px;
+                                    }
+                                    #nav-button-main-container {
+                                        position: relative;
+                                        background-color: darkslateblue;
+                                        margin: 15px;
+                                        left: 254px;
+                                        max-width: 72px;
+                                        width: 72px;
+                                        height: 80px;
+                                        border-radius: 15px;
+                                    }
+                                    #nav-buttons {
+                                        position: relative;
+                                        left: -134px;
+                                        height: 80px;
+                                        display: inline-block;
+                                    }
+                                    .jumbotron {
+                                        background-color: cadetblue;
+                                        width: 560px;
+                                    }
+                                    .jumbotron:hover {
+                                        background-color: black;
+                                    }
+                                    .jumbotron p {
+                                        font-size: 1.2em;
+                                        line-height: 1.9;
+                                    }
+                                    .container-fluid p {
+                                        height: 41px;
+                                        bottom: 40px;
+                                    }
+                                    .btn-default {
+                                        position: relative;
+                                        background-color: #46397f;
+                                        border: 2px solid transparent;
+                                    }
+                                    .btn-default:focus {
+                                        background-color: green;
+                                    }
+                                    .manga {
+                                        left: 0px;
+                                    }
+                                    .col-imgs {
+                                        border-radius: 5px;
+                                    }
+                                    .col-sm-6 {
+                                        width: 570px;
+                                    }
+                                    #image-container p {
+                                        width: 570px;
+                                    }
+                                    #kissface {
+                                        width: 570px;
+                                    }
+                                    #checkersmoke {
+                                        width: 570px;
+                                    }
+                                    #smoker {
+                                        width: 570px;
+                                        top: -57px;
+                                    }
+                                    #gtopoint {
+                                        width: 570px;
+                                    }
+                                    #lessonText {
+                                        width: 570px;
+                                        top: -95px;
+                                    }
+                                    .bottom-divider {
+                                        bottom: 80px;
+                                    }
+                                    #glyph-container {
+                                        top: 2px;
+                                        left: 176px;
+                                    }
+                                    #copyrights {
+                                        bottom: 65px;
+                                        border-radius: 5px;
+                                    }
+                                }
+                                /*LARGE SCREEN SIZES*/
+                                
+                                @media (min-width: 1025px) {
+                                    hr {
+                                        position: relative;
+                                        left: 35px;
+                                        border: 2px solid firebrick;
+                                        border-radius: 5px;
+                                        top: 10px;
+                                    }
+                                    body {
+                                        position: relative;
+                                        width: 550px;
+                                        left: 40pc;
+                                    }
+                                    #nav-button-main-container {
+                                        position: relative;
+                                        background-color: darkslateblue;
+                                        margin: 15px;
+                                        left: 40%;
+                                        width: 72px;
+                                        height: 80px;
+                                        border-radius: 15px;
+                                    }
+                                    .anime {
+                                        position: relative;
+                                        color: whitesmoke;
+                                        font-family: caveat brush, cursive;
+                                        font-size: 1.3em;
+                                    }
+                                    .manga {
+                                        position: relative;
+                                        color: whitesmoke;
+                                        font-family: caveat brush, cursive;
+                                        font-size: 1.3em;
+                                    }
+                                    .gtoEp-1 {
+                                        position: relative;
+                                        left: 24px;
+                                    }
+                                    .jumbotron {
+                                        background-color: lightcoral;
+                                        width: 520px;
+                                        display: inline-block;
+                                    }
+                                    .jumbotron:hover {
+                                        background-color: black;
+                                    }
+                                    .container-fluid h1 {
+                                        color: darkslategray;
+                                        background-color: forestgreen;
+                                        opacity: .9;
+                                    }
+                                    .container-fluid p {
+                                        height: 41px;
+                                        bottom: 40px;
+                                    }
+                                    .col-imgs {
+                                        position: relative;
+                                        display: block;
+                                        flex-direction: column;
+                                        flex-wrap: wrap;
+                                        left: 0%;
+                                        width: 100%;
+                                        border-radius: 5px;
+                                        
+                                    }
+                                    
+                                   
+                                   
+                                    #glyph-container {
+                                        top: 2px;
+                                        left: 150px;
+                                    }
+                                    
+                                    footer{
+                                        position: relative;
+                                        left: 5%;
+                                    }
