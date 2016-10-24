@@ -12,7 +12,9 @@ Make: Using Bootstrap, build a responsive website for mega-fans of your favorite
 
  A responsive navbar ---check 
 
- Find a way to include at least 5 glyphicons --ran into problems here with the bootstrap.min.css link overriding my css....tried a few things that didn't work.  I might end up using imgs instead of bootstrap glyphs.  
+ Find a way to include at least 5 glyphicons --check
+
+
 
 Set up a repository on GitHub and push your project to it. ---check
 
